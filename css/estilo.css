@@ -58,6 +58,7 @@ li{
 .letraTit{
 	display: flex;
 	flex-direction: row;
+	color: black;
 	justify-content: center;
 	font-family: 'Cinzel', serif;
 	text-decoration: underline;
@@ -69,4 +70,19 @@ li{
 .size{
 	max-height: 490px;
 	max-width: 367px;
+}
+
+/*CONTACTO*/
+.letraTit2{
+	display: flex;
+	flex-direction: row;
+	color: white;
+	justify-content: center;
+	font-family: 'Cinzel', serif;
+	text-decoration: underline;
+}
+.textoMedio2{
+	font-family: 'Oleo Script Swash Caps', cursive;
+ 	text-align: center;
+ 	color: white;
 }
