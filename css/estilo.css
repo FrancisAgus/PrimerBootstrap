@@ -1,3 +1,64 @@
+/*GENERAL*/
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
 .bgColor{
 	background-color: lightgreen;
+}
+
+.margin{
+	margin: 2rem;
+}
+.centrar{
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: center;
+ 	text-align: center;
+ }
+.logoInstagram{
+	cursor: pointer;
+	padding: 2rem;
+	transition: all 1s;
+}
+.logoInstagram:hover{
+	transform: translateY(-10px);
+}
+.p1{
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+.p2{
+	padding-bottom: 2rem;
+}
+li{
+	font-size: 1rem;
+	font-family: 'Cinzel', serif;
+ }
+ .reducir{
+ 	transform: scale(0.7,0.7);
+ }
+/*INDEX*/
+.index--fondo{
+	background-image: url("../assets/img/psico-fondo.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.fondoMateriales{
+	background-image: url("../assets/img/fondo-materiales.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.letraTit{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: 'Cinzel', serif;
+	text-decoration: underline;
+}
+.textoMedio{
+ 	font-family: 'Oleo Script Swash Caps', cursive;
+ 	text-align: center;
 }

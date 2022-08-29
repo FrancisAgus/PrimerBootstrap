@@ -14,28 +14,28 @@
     <div class="container-fluid">
       <header class="row">
           <div class="col-12 col-lg-12 bgColor">
-            <nav class="navbar navbar-expand-lg  navbar-light bg-light bgColor">
-              <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="assets/img/Orden18.png" alt="logo pag web"></a>
+            <nav class="navbar navbar-expand-lg  navbar-light bgColor">
+              <div class="container-fluid bgColor">
+              <a class="navbar-brand" href="#"><img src="assets/img/Orden18.png" alt="logo pag web" class="reducir"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
+                  <li class="nav-item p1">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Materiales</a>
+                  <li class="nav-item p1">
+                    <a class="nav-link" href="pages/materiales.html">Materiales</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Leyes útiles</a>
+                  <li class="nav-item p1">
+                    <a class="nav-link" href="pages/leyesUtiles.html">Leyes útiles</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Sobre nosotros</a>
+                  <li class="nav-item p1">
+                    <a class="nav-link" href="pages/sobreNosotros.html">Sobre nosotros</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Contacto</a>
+                  <li class="nav-item p1">
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -43,9 +43,10 @@
             </nav>
           </div>
       </header>
-      <main class="row">
+      <main class="row index--fondo">
+        <!-- CARRUSEL -->
         <div class="col-12 col-lg-12">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -53,13 +54,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/img/t.png" class="d-block w-100" alt="...">
+                <img src="assets/img/t.png" class="d-block w-100" alt="imagen atencion presencial">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/imgindex2jpg.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/imgindex2jpg.jpg" class="d-block w-100" alt="imagen atencion virtual">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/index3.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/index3.jpg" class="d-block w-100" alt="imagen talleres">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -71,12 +72,17 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-         </div>     
+         </div>  
+         <!--TEXTO-->
+         <div class="col-12 col-lg-12">
+           <h1 class="letraTit p2">PSICOGÉNERO</h1>
+           <h2 class="p2 textoMedio">Somos un <span class="edicionTexto">equipo de profesionales</span> abocados al trabajo de atención virtual, con perspectiva de género y un interés genuino en lograr construir con la o el paciente las condiciones para el cambio que busca en su vida.</h2>
+         </div>   
       </main>
-      <footer class="row">
+      <footer class="row centrar">
          <div class="col-12 col-lg-12 bgColor">
-          <a href="https://www.instagram.com/psico_genero/" target="_blank">
-          <img src="assets/img/Instagram.png" ></a>
+          <a href="https://www.instagram.com/psico_genero/" target="_blank" class="">
+          <img src="assets/img/Instagram.png" class="logoInstagram"></a>
           </div>
       </footer>
              <!-- JavaScript Bootstrap -->
