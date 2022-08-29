@@ -30,6 +30,10 @@
 .p2{
 	padding-bottom: 2rem;
 }
+.p3{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
 li{
 	font-size: 1rem;
 	font-family: 'Cinzel', serif;
@@ -61,4 +65,8 @@ li{
 .textoMedio{
  	font-family: 'Oleo Script Swash Caps', cursive;
  	text-align: center;
+}
+.size{
+	max-height: 490px;
+	max-width: 367px;
 }
