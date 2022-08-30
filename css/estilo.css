@@ -55,13 +55,7 @@ li{
 	background-position: center;
 	background-size: cover;
 }
-.fondoMateriales{
-	background-image: url("../assets/img/fondo-materiales.jpg");
-	background-repeat: repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
-}
+
 .letraTit{
 	display: flex;
 	flex-direction: row;
@@ -92,4 +86,40 @@ li{
 	font-family: 'Oleo Script Swash Caps', cursive;
  	text-align: center;
  	color: white;
+}
+.fondoContacto{
+	background-image: url("../assets/img/fondo-contacto.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+/*LEYES UTILES*/
+.fondoLeyes{
+	background-image: url("../assets/img/fondo-leyes.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+@media only screen and (max-width: 768px){
+	.border{ border: none; } 
+}
+
+/*MATERIALES*/
+.fondoMateriales{
+	background-image: url("../assets/img/fondo-materiales.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+/* NOSOTROS */
+.fondoNosotros{
+	background-image: url("../assets/img/fondo-nosotros.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 }
